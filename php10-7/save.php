@@ -25,4 +25,3 @@ $db->write($sql);
 
 //跳转回首页
 header('location: bootstrap.php');
-?>

@@ -22,7 +22,7 @@ class DB{
     {
         //连接到数据库
         $dsn = 'mysql:dbname=php10-7;host=127.0.0.1';
-        $this->pdo = new PDO($dsn,'php', '123456');        
+        $this->pdo = new PDO($dsn,'root', '');        
     }
 
     function write($sql){
